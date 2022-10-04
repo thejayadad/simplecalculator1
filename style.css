@@ -1,0 +1,31 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.cal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+input {
+    width: 70px;
+}
+#result {
+    text-align: center;
+}
+.action {
+    width: 177px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 90px 90px;
+    grid-template-rows: 40px 40px;
+}
